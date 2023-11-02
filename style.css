@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(
+    315deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(184, 160, 111, 1) 28%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#left,
+#right {
+  text-align: center;
+}
+
+#left {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+}
+
+#right {
+  background-color: #e4c355;
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+}
+
+#date {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#day {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+#month {
+  font-size: 1.5rem;
+}
+
+#year {
+  font-size: 1.2rem;
+}
